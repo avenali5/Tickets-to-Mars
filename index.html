@@ -1,0 +1,15 @@
+<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><link rel=icon href=rocket.png><title>Uptown Horizon</title><link rel=stylesheet href=https://unpkg.com/aos@next/dist/aos.css><link href=/css/about.08f9ea6d.css rel=prefetch><link href=/css/home.8ae8d013.css rel=prefetch><link href=/js/about.7fef9380.js rel=prefetch><link href=/js/home.48f6d676.js rel=prefetch><link href=/css/app.fceb381b.css rel=preload as=style><link href=/js/app.0f0b251e.js rel=preload as=script><link href=/js/chunk-vendors.d55d36c0.js rel=preload as=script><link href=/css/app.fceb381b.css rel=stylesheet></head><body><noscript><strong>We're sorry but marte doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=app></div><script>window.onscroll = () => { 
+      let earth = document.querySelector("#earth")
+      let upper = document.querySelector(".upperLayer")
+      let abajo = document.querySelector(".bottomLayer")
+      let title = document.querySelector(".main-title")
+      let value = window.scrollY
+      upper.style.marginBottom = value / 25 + 'px'
+      earth.style.marginRight = value / 5 + 'px'
+      earth.style.marginTop = value / 5 + 'px'
+      title.style.marginTop = -value * 1 + 'px'
+      //console.log(value)
+    }</script><script src=https://unpkg.com/aos@next/dist/aos.js></script><script>AOS.init({
+        duration: 500,
+        once: true,
+      });</script><script src=/js/chunk-vendors.d55d36c0.js></script><script src=/js/app.0f0b251e.js></script></body></html>
